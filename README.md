@@ -19,3 +19,4 @@ MainMenu
  |-> VCS
  |-> Window
  |-> Help
+<em>Writen by <a href='https://www.linkedin.com/in/vadim-tanel-13088062'>Vadim Tanel</a></em>
