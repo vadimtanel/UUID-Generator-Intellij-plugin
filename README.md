@@ -4,10 +4,11 @@ Random UUID generator plugin for intellij
 The UUID will be save to clipboard.
 </div>
  </br>
+ </br>
 <div>
 In the Main menu After Tools will be new menu "Tanel Plugins"
  </br>
-<em>
+<pre>
  MainMenu
   |-> File
   |-> Edit
@@ -23,7 +24,7 @@ In the Main menu After Tools will be new menu "Tanel Plugins"
   |-> VCS
   |-> Window
   |-> Help
- </em>
+ </pre>
 </div> 
  
   </br> </br>
