@@ -1,0 +1,28 @@
+<idea-plugin>
+    <id>com.tanel.vadim.uuidgenerator</id>
+    <name>UUID Generator</name>
+    <vendor email="vadimtanel@gmail.com" url="https://www.linkedin.com/in/vadim-tanel-13088062">Vadim Tanel</vendor>
+
+    <description><![CDATA[
+      <h1>UUID Generator<h1><br>
+      <div>This plugin generat UUID</div>
+      <em>Writen by <a href='https://www.linkedin.com/in/vadim-tanel-13088062'>Vadim Tanel</a></em>
+    ]]></description>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <!-- uncomment to enable plugin in all products
+    <depends>com.intellij.modules.lang</depends>
+    -->
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+    </extensions>
+
+    <actions>
+        <group id="com.tanel.vadim.Generator" popup="true" text="Tanel Plugins" description="Vadim Tanel's plugins">
+            <add-to-group group-id="MainMenu" anchor="after" relative-to-action="ToolsMenu"/>
+            <action id="VadimTanel.Textboxes" class="Generator" text="Generate UUID" description="Generate new UUID each run and put it to clipboard"/>
+        </group>
+    </actions>
+</idea-plugin>
